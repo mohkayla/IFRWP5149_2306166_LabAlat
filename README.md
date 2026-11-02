@@ -1,4 +1,4 @@
-# Hi 👋, I'm 2406043 M. Luthfi Nabih
+# Hi 👋, I'm 2306166 mohamad kayla putra anasa
 
 ### Praktikum Analisis Desain Berorientasi Objek
 

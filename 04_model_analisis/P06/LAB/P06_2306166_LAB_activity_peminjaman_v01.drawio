@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="uKO_euAj9fiXk10Ko_DO">
+    <mxGraphModel dx="926" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G6eeKn603AQAbV-DEon9-5" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="mahasiswa" vertex="1">
+          <mxGeometry height="1050" width="280" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-26" edge="1" parent="G6eeKn603AQAbV-DEon9-5" source="G6eeKn603AQAbV-DEon9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="G6eeKn603AQAbV-DEon9-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-9" parent="G6eeKn603AQAbV-DEon9-5" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-11" parent="G6eeKn603AQAbV-DEon9-5" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="menyerahkan peralatan yang di pinjam&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-17" parent="G6eeKn603AQAbV-DEon9-5" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" value="menerima pengajuan tidak terpenuhi" vertex="1">
+          <mxGeometry height="40" width="140" x="50" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-25" parent="G6eeKn603AQAbV-DEon9-5" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="cetak bukti pengajuan (dari LAB-UC05)" vertex="1">
+          <mxGeometry height="40" width="140" x="60" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-7" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="sistem" vertex="1">
+          <mxGeometry height="1050" width="280" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-16" parent="G6eeKn603AQAbV-DEon9-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="periksa ketersediaan (dari LAB UC04)" vertex="1">
+          <mxGeometry height="40" width="120" x="90" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-18" parent="G6eeKn603AQAbV-DEon9-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="peralatan tersedia?" vertex="1">
+          <mxGeometry height="100" width="160" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-19" parent="G6eeKn603AQAbV-DEon9-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="77" width="80" x="110" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-21" parent="G6eeKn603AQAbV-DEon9-7" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="mencatat hasil akhir pengajuan" vertex="1">
+          <mxGeometry height="40" width="140" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-22" parent="G6eeKn603AQAbV-DEon9-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="mahasiswa memilih cetak bukti" vertex="1">
+          <mxGeometry height="100" width="100" x="100" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-46" edge="1" parent="G6eeKn603AQAbV-DEon9-7" source="G6eeKn603AQAbV-DEon9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G6eeKn603AQAbV-DEon9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-23" parent="G6eeKn603AQAbV-DEon9-7" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="125" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-24" parent="G6eeKn603AQAbV-DEon9-7" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="135" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-8" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="petugas laboratorium" vertex="1">
+          <mxGeometry height="1050" width="260" x="580" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-20" parent="G6eeKn603AQAbV-DEon9-8" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="memproses keputusan peminjaman" vertex="1">
+          <mxGeometry height="40" width="140" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-15" parent="G6eeKn603AQAbV-DEon9-8" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="catatn pengembalian peralatan (LAB-UC11)" vertex="1">
+          <mxGeometry height="40" width="140" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="G6eeKn603AQAbV-DEon9-47" edge="1" parent="1" source="G6eeKn603AQAbV-DEon9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="G6eeKn603AQAbV-DEon9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
